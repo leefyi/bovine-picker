@@ -1,1 +1,1 @@
-bovine-picker
+bovine_picker

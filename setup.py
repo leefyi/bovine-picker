@@ -8,12 +8,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='bovine-picker',
-    version='0.0.2',
+    name='bovine_picker',
+    version='0.0.3',
     keywords='bovine-birthday test pypi',
     description='a library for test pypi distribution process',
     license='MIT License',
-    url='https://github.com/leefyi/bovine-picker',
+    url='https://github.com/leefyi/bovine_picker',
     author='lifangyi',
     author_email='leefyi@126.com',
     packages=find_packages(),

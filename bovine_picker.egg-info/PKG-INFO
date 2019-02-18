@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
 Name: bovine-picker
-Version: 0.0.1
+Version: 0.0.3
 Summary: a library for test pypi distribution process
-Home-page: https://github.com/leefyi/bovine-picker
+Home-page: https://github.com/leefyi/bovine_picker
 Author: lifangyi
 Author-email: leefyi@126.com
 License: MIT License
