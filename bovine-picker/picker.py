@@ -29,7 +29,13 @@ class Picker(object):
             'Friday',
             'Saturday'),
         'jp': (
-            '',
+            'にちようび',
+            'げつようび',
+            'かようび',
+            'すいようび',
+            'もくようび',
+            'きんようび',
+            'どようび'
         )}
 
     def __init__(self, locale):
@@ -107,6 +113,6 @@ class Picker(object):
             elif self.locale == 'cn':
                 raise Exception('生日格式不正确。')
             elif self.locale == 'jp':
-                raise Exception('not defined')
+                raise Exception('フォーマットが正しくない')
             else:
                 raise Exception('birthday format is not valid.')

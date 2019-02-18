@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='bovine-picker',
-    version='0.0.1',
+    version='0.0.2',
     keywords='bovine-birthday test pypi',
     description='a library for test pypi distribution process',
     license='MIT License',
