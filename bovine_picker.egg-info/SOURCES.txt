@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bovine-picker/__init__.py
+bovine-picker/picker.py
+bovine_picker.egg-info/PKG-INFO
+bovine_picker.egg-info/SOURCES.txt
+bovine_picker.egg-info/dependency_links.txt
+bovine_picker.egg-info/top_level.txt
