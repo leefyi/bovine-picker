@@ -38,9 +38,12 @@ class Picker(object):
             'どようび'
         )}
 
-    def __init__(self, locale):
+    def __init__(self, locale=None):
         self.description = 'check out the day'
-        self.locale = locale
+        if not locale:
+            self.locale = 'en'
+        else:
+            self.locale = locale
 
     def what_day(self, birthay):
         index = self.getw(birthay)

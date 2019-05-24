@@ -1,5 +1,5 @@
 bovine-picker
-
+-
 1.a test lib/project of pypi distribution process.
 
 2.a simple usage of Bovine Birthday formula. 
