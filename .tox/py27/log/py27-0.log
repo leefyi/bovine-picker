@@ -1,0 +1,8 @@
+action: py27, msg: getenv
+cwd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python2.7 py27
+New python executable in /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py27/bin/python2.7
+Also creating executable in /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py27/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /usr/bin/python2.7

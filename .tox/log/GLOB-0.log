@@ -1,0 +1,42 @@
+action: GLOB, msg: packaging
+cwd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing dependency_links to bovine_picker.egg-info/dependency_links.txt
+writing top-level names to bovine_picker.egg-info/top_level.txt
+writing bovine_picker.egg-info/PKG-INFO
+reading manifest file 'bovine_picker.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'bovine_picker.egg-info/SOURCES.txt'
+running check
+creating bovine_picker-0.0.6
+creating bovine_picker-0.0.6/bovine_picker
+creating bovine_picker-0.0.6/bovine_picker.egg-info
+copying files to bovine_picker-0.0.6...
+copying MANIFEST.in -> bovine_picker-0.0.6
+copying README.md -> bovine_picker-0.0.6
+copying setup.cfg -> bovine_picker-0.0.6
+copying setup.py -> bovine_picker-0.0.6
+copying bovine_picker/__init__.py -> bovine_picker-0.0.6/bovine_picker
+copying bovine_picker/picker.py -> bovine_picker-0.0.6/bovine_picker
+copying bovine_picker/picker_test.py -> bovine_picker-0.0.6/bovine_picker
+copying bovine_picker.egg-info/PKG-INFO -> bovine_picker-0.0.6/bovine_picker.egg-info
+copying bovine_picker.egg-info/SOURCES.txt -> bovine_picker-0.0.6/bovine_picker.egg-info
+copying bovine_picker.egg-info/dependency_links.txt -> bovine_picker-0.0.6/bovine_picker.egg-info
+copying bovine_picker.egg-info/top_level.txt -> bovine_picker-0.0.6/bovine_picker.egg-info
+Writing bovine_picker-0.0.6/setup.cfg
+creating '.tox/dist/bovine_picker-0.0.6.zip' and adding 'bovine_picker-0.0.6' to it
+adding 'bovine_picker-0.0.6/MANIFEST.in'
+adding 'bovine_picker-0.0.6/setup.cfg'
+adding 'bovine_picker-0.0.6/README.md'
+adding 'bovine_picker-0.0.6/setup.py'
+adding 'bovine_picker-0.0.6/PKG-INFO'
+adding 'bovine_picker-0.0.6/bovine_picker.egg-info/dependency_links.txt'
+adding 'bovine_picker-0.0.6/bovine_picker.egg-info/SOURCES.txt'
+adding 'bovine_picker-0.0.6/bovine_picker.egg-info/top_level.txt'
+adding 'bovine_picker-0.0.6/bovine_picker.egg-info/PKG-INFO'
+adding 'bovine_picker-0.0.6/bovine_picker/__init__.py'
+adding 'bovine_picker-0.0.6/bovine_picker/picker_test.py'
+adding 'bovine_picker-0.0.6/bovine_picker/picker.py'
+removing 'bovine_picker-0.0.6' (and everything under it)

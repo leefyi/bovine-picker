@@ -1,0 +1,15 @@
+action: py32, msg: envreport
+cwd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker
+cmd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py32/bin/python -m pip freeze
+atomicwrites==1.3.0
+attrs==19.1.0
+bovine-picker==0.0.6
+coverage==4.5.3
+more-itertools==7.0.0
+pathlib2==2.3.3
+pluggy==0.11.0
+py==1.8.0
+pytest==4.5.0
+pytest-cov==2.7.1
+six==1.12.0
+wcwidth==0.1.7

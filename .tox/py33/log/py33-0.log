@@ -1,0 +1,9 @@
+action: py33, msg: getenv
+cwd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 py33
+Already using interpreter /usr/bin/python3
+Using base prefix '/usr'
+New python executable in /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py33/bin/python3
+Also creating executable in /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py33/bin/python
+Installing setuptools, pip, wheel...
+done.

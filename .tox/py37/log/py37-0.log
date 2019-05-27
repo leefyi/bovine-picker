@@ -1,0 +1,9 @@
+action: py37, msg: getenv
+cwd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3.7 py37
+Using base prefix '/usr'
+New python executable in /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py37/bin/python3.7
+Also creating executable in /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py37/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /usr/bin/python3.7
