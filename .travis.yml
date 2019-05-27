@@ -10,7 +10,8 @@ python:
 install: true
 
 script:
-  - python bovine_picker/picker_test.py
+  - cd test
+  - python picker_test.py
 
 branches:
   only:

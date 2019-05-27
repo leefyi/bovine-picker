@@ -119,3 +119,8 @@ class Picker(object):
                 raise Exception('フォーマットが正しくない')
             else:
                 raise Exception('birthday format is not valid.')
+
+if __name__ == '__main__':
+    tp = os.path.abspath(__file__)
+    print(tp)
+    print(sys.path)
