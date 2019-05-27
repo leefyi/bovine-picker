@@ -4,7 +4,10 @@
 # file: picker_test.py
 
 import unittest
-from .picker import Picker
+import pytest
+import sys
+sys.path.append("..")
+from bovine_picker import picker
 
 # unit test
 # travis
@@ -13,7 +16,7 @@ from .picker import Picker
 class PickerTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.picker = Picker()
+        self.picker = picker.Picker()
         print('picker unit test start.')
 
     def tearDown(self):
@@ -39,4 +42,5 @@ class PickerTestCase(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    # unittest.main()
+    pytest.main()

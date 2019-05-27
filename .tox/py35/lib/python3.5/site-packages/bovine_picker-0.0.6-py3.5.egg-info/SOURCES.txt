@@ -4,8 +4,9 @@ setup.cfg
 setup.py
 bovine_picker/__init__.py
 bovine_picker/picker.py
-bovine_picker/picker_test.py
 bovine_picker.egg-info/PKG-INFO
 bovine_picker.egg-info/SOURCES.txt
 bovine_picker.egg-info/dependency_links.txt
 bovine_picker.egg-info/top_level.txt
+test/__init__.py
+test/picker_test.py
