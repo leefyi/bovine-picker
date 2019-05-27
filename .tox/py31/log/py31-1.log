@@ -1,0 +1,28 @@
+action: py31, msg: getenv
+cwd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker
+cmd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py31/bin/python -m pip install pytest pytest-cov
+Collecting pytest
+  Using cached https://files.pythonhosted.org/packages/56/53/0ae37ab12c457945ae0152c6571d6d40eecccddf25f71fe328f9aefe90ca/pytest-4.5.0-py2.py3-none-any.whl
+Collecting pytest-cov
+  Using cached https://files.pythonhosted.org/packages/84/7b/73f8522619d1cbb22b9a36f9c54bc5ce5e24648e53cc1bf566477d2d1f2b/pytest_cov-2.7.1-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting pluggy!=0.10,<1.0,>=0.9 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/cc/e4/2003a5e4e445424602c8f06a436eeed9e78bcae4947128f64741c66c7216/pluggy-0.11.0-py2.py3-none-any.whl
+Collecting wcwidth (from pytest)
+  Using cached https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in ./.tox/py31/lib/python3.5/site-packages (from pytest) (41.0.1)
+Collecting attrs>=17.4.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl
+Collecting atomicwrites>=1.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomicwrites-1.3.0-py2.py3-none-any.whl
+Collecting more-itertools>=4.0.0; python_version > "2.7" (from pytest)
+  Using cached https://files.pythonhosted.org/packages/b3/73/64fb5922b745fc1daee8a2880d907d2a70d9c7bb71eea86fcb9445daab5e/more_itertools-7.0.0-py3-none-any.whl
+Collecting py>=1.5.0 (from pytest)
+  Using cached https://files.pythonhosted.org/packages/76/bc/394ad449851729244a97857ee14d7cba61ddb268dce3db538ba2f2ba1f0f/py-1.8.0-py2.py3-none-any.whl
+Collecting pathlib2>=2.2.0; python_version < "3.6" (from pytest)
+  Using cached https://files.pythonhosted.org/packages/2a/46/c696dcf1c7aad917b39b875acdc5451975e3a9b4890dca8329983201c97a/pathlib2-2.3.3-py2.py3-none-any.whl
+Collecting coverage>=4.4 (from pytest-cov)
+  Using cached https://files.pythonhosted.org/packages/4f/d1/df283ea8e30aff9d567b111f40184260caa4a54f55aa26b48b82cf79161e/coverage-4.5.3-cp35-cp35m-manylinux1_x86_64.whl
+Installing collected packages: six, pluggy, wcwidth, attrs, atomicwrites, more-itertools, py, pathlib2, pytest, coverage, pytest-cov
+Successfully installed atomicwrites-1.3.0 attrs-19.1.0 coverage-4.5.3 more-itertools-7.0.0 pathlib2-2.3.3 pluggy-0.11.0 py-1.8.0 pytest-4.5.0 pytest-cov-2.7.1 six-1.12.0 wcwidth-0.1.7

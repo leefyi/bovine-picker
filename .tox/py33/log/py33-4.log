@@ -1,0 +1,14 @@
+action: py33, msg: installpkg
+cwd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker
+cmd: /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py33/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/bovine_picker-0.0.6.zip
+Processing ./.tox/.tmp/package/1/bovine_picker-0.0.6.zip
+Building wheels for collected packages: bovine-picker
+  WARNING: Building wheel for bovine-picker failed: [Errno 13] Permission denied: '/home/SENSETIME/lifangyi/.cache/pip/wheels/30/3d'
+Failed to build bovine-picker
+Installing collected packages: bovine-picker
+  Found existing installation: bovine-picker 0.0.6
+    Not uninstalling bovine-picker at /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker, outside environment /home/SENSETIME/lifangyi/PycharmProjects/bovine-picker/.tox/py33
+    Can't uninstall 'bovine-picker'. No files were found to uninstall.
+  Running setup.py install for bovine-picker: started
+    Running setup.py install for bovine-picker: finished with status 'done'
+Successfully installed bovine-picker-0.0.6
